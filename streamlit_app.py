@@ -70,4 +70,4 @@ if streamlit.button('Add a Fruit to the List'):
     sreamlit.text(back_from_function)
 
 # This will not work correctly, but just go with it for now
-my_cur.execute("insert into pc_rivery_db.public.fruit_load_list values ('from streamlit')")
+# my_cur.execute("insert into pc_rivery_db.public.fruit_load_list values ('from streamlit')")
